@@ -1,0 +1,15 @@
+{
+  "environments": [
+    {
+      "name": "dev",
+      "account": "845290112482"
+    },
+    {
+      "name": "prod",
+      "account": "900394040587"
+    }
+  ],
+  "artifactFiles": [
+
+  ]
+}

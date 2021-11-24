@@ -1,4 +1,7 @@
-## sbt project compiled with Scala 3
+# $name$ 
+
+## CI and CD
+
 
 ### Usage
 

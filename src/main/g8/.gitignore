@@ -1,0 +1,20 @@
+### macOS ###
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+### IntelliJ ###
+out/
+.idea_modules/
+atlassian-ide-plugin.xml
+.idea
+cmake-build-*/
+*.iws
+*~
