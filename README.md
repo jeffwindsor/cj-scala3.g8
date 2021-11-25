@@ -11,9 +11,7 @@ A [giter8] template for a single process aws scala 3 project:
   * [sbt] build tool 
   * [sbt-assembly] plugin for creating uber jars
   * [scala test]
-  * [scala mock] 
-  * [scala check] for property testing
-  * optional oracle jdbc dependency
+  * oracle jdbc dependency
 
 ## Usage
 ```
