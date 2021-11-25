@@ -1,25 +1,37 @@
-scala3.g8: simple scala3-compiled sbt project template
-=================
-[![Build Status](https://travis-ci.com/scala/scala3.g8.svg?branch=master)](https://travis-ci.com/scala/scala3.g8/)
+# FinTech new aws + scala3 project template
 
-A [Giter8][g8] template for a minimal [Scala 3] project.
+A [giter8] template for a single process aws scala 3 project: 
+* [shuttle] integration
+  * shell scripts linked to sub-projects
+  * CJ Fintech AWS accounts
+* [aws-cdk] sub-project
+  * minimal stack config
+  * fully populated package.json with most used aws-cdk dependencies
+* [scala 3] sub-project for process
+  * [sbt] build tool 
+  * [sbt-assembly] plugin for creating uber jars
+  * [scala test]
+  * [scala mock] 
+  * [scala check] for property testing
+  * optional oracle jdbc dependency
 
-Template usage
---------------
-Using `sbt`, do:
+## Usage
 ```
-sbt new scala/scala3.g8
+sbt new https://gitlab.cj.dev/empire/scala3.g8
 ```
 in the folder where you want to clone the template.
 
-Template license
-----------------
-Written in 2017 by [Nicolas Stucki]
+------------
+originally forked from [upstream] official scala3 template 
 
-To the extent possible under law, the author(s) have dedicated all copyright and related
-and neighboring rights to this template to the public domain worldwide.
-This template is distributed without any warranty. See <http://creativecommons.org/publicdomain/zero/1.0/>.
 
-[g8]: http://www.foundweekends.org/giter8/
-[Scala 3]: http://dotty.epfl.ch/
-[Nicolas Stucki]: https://github.com/nicolasstucki
+[aws-cdk]: https://docs.aws.amazon.com/cdk/api/latest/
+[giter8]: http://www.foundweekends.org/giter8/
+[sbt-assembly]: https://github.com/sbt/sbt-assembly
+[sbt]: https://www.scala-sbt.org/
+[scala 3]: http://dotty.epfl.ch/
+[scala check]: https://scalacheck.org/
+[scala mock]: https://scalamock.org/
+[scala test]: https://www.scalatest.org/
+[shuttle]: https://operations.cj.dev/shuttle/docs
+[upstream]: https://github.com/scala/scala3.g8
