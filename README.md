@@ -11,11 +11,11 @@ A [giter8] template for a single process aws scala 3 project:
   * [sbt] build tool 
   * [sbt-assembly] plugin for creating uber jars
   * [scala test]
-  * oracle jdbc dependency
+  * optional [ojdbc] integration
 
 ## Usage
 ```
-sbt new https://gitlab.cj.dev/empire/scala3.g8
+g8 https://gitlab.cj.dev/empire/scala3.g8 --name={target-name}
 ```
 in the folder where you want to clone the template.
 
@@ -33,3 +33,4 @@ originally forked from [upstream] official scala3 template
 [scala test]: https://www.scalatest.org/
 [shuttle]: https://operations.cj.dev/shuttle/docs
 [upstream]: https://github.com/scala/scala3.g8
+[ojdbc]: https://search.maven.org/search?q=a:ojdbc10
