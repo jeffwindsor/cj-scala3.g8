@@ -1,6 +1,5 @@
 # FinTech new aws + scala3 project template
 
-A [giter8] template for a single process aws scala 3 project: 
 * [shuttle] integration
   * shell scripts linked to sub-projects
   * CJ Fintech AWS accounts
@@ -15,10 +14,26 @@ A [giter8] template for a single process aws scala 3 project:
 
 ## Usage
 
+### Pre-Requirements
+
+* [Giter8] (installed by [Coursier])
 ```
-g8 https://gitlab.cj.dev/empire/scala3.g8
+$ brew install coursier/formulas/coursier
+$ cs install giter8
 ```
-in the folder where you want to clone the template.
+
+### Create a new project from this template
+
+```
+$ g8 https://gitlab.cj.dev/empire/scala3.g8
+```
+
+* name: project folder and scala sub-project name
+* oracle-access-required: true, will add the ojdbc dependency to the scala sub-project
+
+
+
+
 
 ------------
 originally forked from [upstream] official scala3 template 
@@ -35,3 +50,4 @@ originally forked from [upstream] official scala3 template
 [shuttle]: https://operations.cj.dev/shuttle/docs
 [upstream]: https://github.com/scala/scala3.g8
 [ojdbc]: https://search.maven.org/search?q=a:ojdbc10
+[coursier]: https://get-coursier.io/
