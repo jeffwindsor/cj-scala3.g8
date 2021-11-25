@@ -14,8 +14,9 @@ A [giter8] template for a single process aws scala 3 project:
   * optional [ojdbc] integration
 
 ## Usage
+
 ```
-g8 https://gitlab.cj.dev/empire/scala3.g8 --name={target-name}
+g8 https://gitlab.cj.dev/empire/scala3.g8
 ```
 in the folder where you want to clone the template.
 
