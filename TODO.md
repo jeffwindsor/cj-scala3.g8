@@ -1,5 +1,6 @@
 # TODOS
 
+* get the sbt version running
 * add root level README text on how to modify project and standards
 * add information to project README
 * branches with more specific templates
